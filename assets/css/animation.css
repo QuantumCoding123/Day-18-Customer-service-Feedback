@@ -1,0 +1,59 @@
+.shake img
+{
+    animation: shake 0.5s forwards ease-in-out;
+}
+@keyframes shake {
+    0%
+    {
+        transform: rotate(-15deg);
+    }
+    25%
+    {
+        transform: rotate(15deg);
+    }
+    50%
+    {
+        transform: rotate(-15deg);
+    }
+    75%
+    {
+        transform: rotate(15deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
+
+.playbtn svg:hover
+{
+    animation: 1s forwards ease-in-out textRotate;
+}
+@keyframes textRotate {
+    from
+    {
+        transform: rotate(360deg);
+    }
+    to
+    {
+        transform: rotate(0);
+    }
+}
+
+.slider_caption *
+{
+    animation: revealSlide 1s forwards ease-in-out;
+}
+@keyframes revealSlide
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

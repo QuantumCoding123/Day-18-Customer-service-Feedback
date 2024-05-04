@@ -1,0 +1,155 @@
+/* large screens */
+@media (min-width: 1600px)
+{
+    .container
+    {
+        max-width: 1250px;
+    }
+}
+
+
+@media (max-width: 1500px)
+{
+
+}
+
+
+/* Desktops/Laptops */
+@media (max-width: 1200px)
+{
+    .socialIcons
+    {
+        padding-right: 0;
+    }
+    .main-heading
+    {
+        font-size: 50px;
+    }
+    .services_caption h3
+    {
+        font-size: 35px;
+    }
+    .about_service h3
+    {
+        font-size: 20px;
+    }
+    .about_service p
+    {
+        font-size: 12px;
+    }
+    .ratingHead h2
+    {
+        font-size: 20px;
+    }
+    .formHead
+    {
+        font-size: 15px;
+    }
+}
+
+/* Laptops */
+@media (max-width: 1024px)
+{
+
+}
+
+/* Tablets */
+@media (max-width: 768px)
+{
+    .tab-50
+    {
+        width: 50%;
+    }
+    .tab-100
+    {
+        width: 100%;
+    }
+    .tab-none
+    {
+        display: none;
+    }
+    .main-heading
+    {
+        font-size: 30px;
+    }
+    .headermsg
+    {
+        font-size: 12px;
+    }
+    .slider_btn, .u_btn
+    {
+        width: 200px;
+        height: 60px;
+    }
+    .carousel-indicators
+    {
+        position: relative;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px)
+{
+    .sm-100
+    {
+        width: 100%;
+    }
+    .sm-none
+    {
+        display: none;
+    }
+    .navbar
+    {
+        padding: 20px;
+    }
+    .socialIcons
+    {
+        margin-top: 30px;
+    }
+    .slider_caption
+    {
+        margin-top: 20px;
+    }
+
+
+    .productRating
+    {
+        padding: 25px 20px;
+    }
+    .ratingHead h2
+    {
+        font-size: 15px;
+    }
+    .rangeNumber span
+    {
+        font-size: 13px;
+    }
+    .rangeNumber span.active
+    {
+        font-size: 15px;
+    }
+    .thumbsingle p
+    {
+        font-size: 10px;
+    }
+    .formHead
+    {
+        font-size: 12px;
+    }
+    .inputLabel
+    {
+        font-size: 10px;
+    }
+    .radio-single input
+    {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .radio-single input::before
+    {
+        width: 10px;
+        height: 10px;
+    }
+
+}
